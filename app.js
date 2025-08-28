@@ -15,13 +15,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Dados simulados em memória (arrays globais)
 let categorias = [
-  { id: 1, nome: "Tecnologia" },
-  { id: 2, nome: "Design" }
+  { id: 1, nome: "BackEnd" },
+  { id: 2, nome: "FrontEnd" }
 ];
 
 let alunos = [
-  { id: 1, nome: "João" },
-  { id: 2, nome: "Maria" }
+  { id: 1, nome: "Sophie" },
+  { id: 2, nome: "Matteo" }
 ];
 
 let cursos = [

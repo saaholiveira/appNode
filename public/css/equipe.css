@@ -3,9 +3,25 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #820082;
   margin: 0;
-  padding: 20px;
+  padding: 0;
   text-align: center;
 }
+
+.navbar {
+  background-color: #8a1e81 !important; 
+  color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #ffe4f9 !important; /* rosa clarinho no hover */
+}
+
 
 h1 {
   font-size: 36px;
