@@ -16,7 +16,7 @@ body {
 
 /* Navbar */
 .navbar {
-  background-color: #8a1e81 !important; /* Azul profundo */
+  background-color: #8a1e81 !important; 
   color: white;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
@@ -24,6 +24,10 @@ body {
 .navbar a {
   color: #fff !important;
   font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #ffe4f9 !important; /* rosa clarinho no hover */
 }
 
 /* Footer */
@@ -69,9 +73,19 @@ h1, h2, h3, h4 {
   vertical-align: middle;
 }
 
+.btn-primary {
+  background-color: #eb25ba !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover {
+  background-color: #9e1eaf !important;
+}
+
 /* Botões de ações (editar/deletar) */
 .btn-warning {
-  background-color: #fbbf24;
+  background-color: #fb24a1;
   border: none;
   color: #fff;
 }

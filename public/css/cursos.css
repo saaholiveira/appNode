@@ -11,7 +11,7 @@
 
 /* Título */
 h1 {
-  color: #cfc500; /* azul escuro */
+  color: #cf0091; /* azul escuro */
   text-align: center;
   margin-bottom: 30px;
   font-weight: 700;
@@ -23,7 +23,7 @@ h1 {
   display: inline-block;
   margin-bottom: 20px;
   padding: 10px 18px;
-  background-color: #cfc500; /* azul vibrante */
+  background-color: #cf0091; /* azul vibrante */
   color: #fff;
   border-radius: 8px;
   text-decoration: none;
@@ -33,7 +33,7 @@ h1 {
 }
 
 .add-btn:hover {
-  background-color: #cfc500;
+  background-color: #cf0091;
   color: #e2e8f0;
 }
 
@@ -50,7 +50,7 @@ table {
 
 /* Cabeçalho da tabela */
 thead tr {
-  background-color: #cfc500;
+  background-color: #cf0091;
   color: white;
   text-align: left;
   font-weight: 700;
