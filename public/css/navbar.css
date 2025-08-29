@@ -1,5 +1,5 @@
 nav {
-  background-color: #ffcafc; /* Azul forte */
+  background-color: #ffcafc; 
   padding: 10px 30px;
 }
 
@@ -9,14 +9,14 @@ nav ul {
   padding: 0;
 
   display: flex;
-  justify-content: flex-end; /* Alinha itens à direita */
-  gap: 40px; /* Espaçamento entre itens */
+  justify-content: flex-end; 
+  gap: 40px;
   align-items: center;
 }
 
 nav ul li {
-  margin: 0; /* Remove margem extra */
-  padding: 0; /* Remove padding extra */
+  margin: 0; 
+  padding: 0; 
 }
 
 nav ul li a {
